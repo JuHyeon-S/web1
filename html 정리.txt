@@ -1,0 +1,53 @@
+<strong> : 굵게 표시 
+<u> : 밑줄 표시
+
+h1 
+ ;    >> 제목을 표시하는 것 h1이 가장 큼
+h6
+
+htmk 태그 사용 통계
+https://www.advancedwebranking.com/html/
+
+줄바꿈 
+html new line tag
+<br/> 그저 줄바꾸는 용도
+
+html paragraph tag
+<p><p/> 웹페이지를 정보로서 가치있게 함 단락 나눔
+	정해져있는 여백 만큼 떨어트림
+	css : <p style="margin-top:40px"> -> 여백과 여백이 40픽셀만큼 떨어짐
+
+이미지
+<img src="이미지주소" width="100%"> -> width = "100%" 는 자동으로 맞춤
+	-> 속성의 순서는 상관 ㄴㄴ
+	-> 속성을 통해 더 많은 의미를 부여
+
+부모 태그와 자식 태그
+ul 과 li	-> 순서가 없는 리스트 unordered list
+ol 과 li	-> 순서가 있는 리스트 ordered list
+
+//본문의 설명 부분
+
+웹페이지 제목
+<title> 제목 </title>
+
+<meta charset="utf-8"> -> utf-8로 브라우저에서 읽어라 charset => character set
+
+//////
+<html> 헤드와 바디를 감싸는 최고위층 태그 
+<head> 본문을 설명하는 부분 </head>
+<body> 본문 </body>
+
+<!doctype html> -> 이문서가 html이라는것을 나타낸다 <html>위에 관용적으로 써줌
+
+/////
+검색 엔진이 존재하게 한 태그
+가장 중요함
+Hyper Text
+<a> -> 링크
+<a href="https://www.w3.org/TR/html51/" target="_blank" title="html5 specification">
+	-> href - hyper Text reference  링크 
+	-> target 여는 방법
+	-> title 툴팁 뜨게 함
+html specification >> html 사용법 검색
+
